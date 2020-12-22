@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="lorem this is the description of the dinner club">
+    <title>restaurant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Hover-master/css/hover-min.css">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.1-web/css/all.css"> 
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+<main>
+<div class="site_wrapper">
+    <header>
+        <div class="logo">
+            <a href="#">
+                <!-- <img src="#" alt=""> -->
+                <h2>Chinese club  </h2>
+            </a>
+        </div>
+    </header>
+    <div class="banner">
+       <div class="video-wrapper" style="display: block;">
+           <video autoplay muted loop id="myVideo">
+               <source src="/image/banner2.mp4" type="video/mp4"> 
+           </video>
+        </div>
+        <!-- heaing---tab -->
+        <div class="container">
+            <div class="main_Content_wrp">
+                    <ul class="heading_tab">
+                        <li class="L_01 List_cmn1"  onclick="openList('List1')"  >
+                            <div class="Item1 Item_cmn0">
+                                <figure>
+                                    <img src="image/diet1.png" alt="">
+                                </figure>
+                                <figcaption>
+                                    <h3>Diet</h3>
+                                </figcaption>
+                            </div>
+                        </li>
+                        <li class="L_02  List_cmn1" onclick="openList('List2')" >
+                            <div class="Item1 Item_cmn0">
+                                <figure>
+                                    <img src="image/itallina1.png" alt="">
+                                </figure>
+                                <figcaption>
+                                    <h3>italian</h3>
+                                </figcaption>
+                            </div>
+                        </li>
+                        <li class="L_03  List_cmn1  List_active" onclick="openList('List3')" >
+                            <div class="Item1 Item_cmn0">
+                                <figure>
+                                    <img src="image/chinese2.png" alt="">
+                                </figure>
+                                <figcaption>
+                                    <h3>Chinese</h3>
+                                </figcaption>
+                            </div>
+                        </li>
+                        <li class="L_04  List_cmn1" onclick="openList('List4')" >
+                            <div class="Item1 Item_cmn0">
+                                <figure>
+                                    <img src="image/Sea1.png" alt="">
+                                </figure>
+                                <figcaption>
+                                    <h3>Sea food</h3>
+                                </figcaption>
+                            </div>
+                        </li>
+                        <li class="L_02  List_cmn1" onclick="openList('List5')" >
+                            <div class="Item1 Item_cmn0">
+                                <figure>
+                                    <img src="image/Ice_cream1.png" alt="">
+                                </figure>
+                                <figcaption>
+                                    <h3>ice cream</h3>
+                                </figcaption>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- diet -->
+                    <div class="content_list_wrp List_cmn" id="List1" style="display: none;">
+                                <!-- sub_tab -->
+                                <div class="Sub_tab">
+                                    <ul class="sup_01">
+                                        <li class=" Sub_li_0 tab1 Sub_active_tab1"  onclick="openSubList1('Sub_List_one_1')" >
+                                            <span>Diet Soups</span>
+                                        </li>
+                                        <li class="Sub_li_0 tab1"  onclick="openSubList1('Sub_List_one_2')" >
+                                            <span>Diet veg starters</span>
+                                        </li>
+                                        <li class="Sub_li_0 tab1"  onclick="openSubList1('Sub_List_one_3')" >
+                                            <span>Rice Noodles and Chopsuey</span>
+                                        </li>
+                                        <li class="Sub_li_0 tab1"  onclick="openSubList1('Sub_List_one_4')" >
+                                            <span>Non-veg starters</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                    <!-- end--here -->
+                            <!-- subs---Soups -->
+                            <div class="child_content1 child_cnt_commn1" id="Sub_List_one_1">
+                                <div class="Content_heading">
+                                    <div class="Item_name">
+                                        <h2>Soup</h2>
+                                    </div>
+                                    <div class="selector">
+                                            <label for="#" class="Veg">
+                                                <input type="radio" name="radio1" id="radio1">
+                                                Veg
+                                            </label>
+                                            <label for="#" class="Non-Veg">
+                                                <input type="radio" name="radio2" id="radio2">
+                                                Non-veg
+                                            </label>
+                                    </div>
+                                </div>
+                                <div class="Content_list_01">
+                                    <ul class="unorder01">
+                                        <li class="Cnt_List_wrp1 Li_01_cmn">
+                                            <div class="f01">
+                                                <div class="Lft_side Sup_cmn">
+                                                    <h4>Hot and Sour soup</h4>
+                                                    <p>Sauce tomate, mozzarella, souf
+                                                        Chilly, strawberry, etc.
+                                                        </p>
+                                                </div>
+                                                <div class="Rgt_side  Sup_cmn">
+                                                    <figure>
+                                                        <img src="image/Soup1.png" alt="">
+                                                    </figure>
+                                                </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                            <div class="price_bar st_cmn">
+                                                <span> $30 </span>
+                                            </div>
+                                            <div class="add_item st_cmn">
+                                                <b id="decrement" onclick="decrement()">-</b>
+                                                <span id="counter">0</span>
+                                                <b id="increment" onclick="increment()">+</b>
+                                            </div>
+                                        </div>
+                                        <!-- end--here -->
+                                        </li>
+                                        <li class="Cnt_List_wrp2 Li_01_cmn">
+                                        <div class="f01">
+                                                <div class="Lft_side Sup_cmn">
+                                                    <h4>Sweet Corn Soup</h4>
+                                                    <p>Sauce tomate, mozzarella, souf
+                                                        Chilly, strawberry, etc.
+                                                        </p>
+                                                </div>
+                                                <div class="Rgt_side Sup_cmn">
+                                                    <figure>
+                                                        <img src="image/Soup2.png" alt="">
+                                                    </figure>
+                                                </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                            <div class="price_bar st_cmn">
+                                                <span> $30 </span>
+                                            </div>
+                                            <div class="add_item  st_cmn">
+                                                <b id="decrement" onclick="decrement()">-</b>
+                                                <span id="counter">0</span>
+                                                <b id="increment" onclick="increment()">+</b>
+                                            </div>
+                                        </div>
+                                        <!-- end--here -->
+                                        </li>
+                                        <li class="Cnt_List_wrp3 Li_01_cmn">
+                                            <div class="f01">
+                                                <div class="Lft_side Sup_cmn">
+                                                    <h4>Sweet Corn Soup</h4>
+                                                    <p>Sauce tomate, mozzarella, souf
+                                                        Chilly, strawberry, etc.
+                                                        </p>
+                                                </div>
+                                                <div class="Rgt_side Sup_cmn">
+                                                    <figure>
+                                                        <img src="image/Soup2.png" alt="">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <!-- add-item -->
+                                            <div class="status_wrp">
+                                            <div class="price_bar st_cmn">
+                                                <span> $30 </span>
+                                            </div>
+                                            <div class="add_item  st_cmn">
+                                                <b id="decrement" onclick="decrement()">-</b>
+                                                <span id="counter">0</span>
+                                                <b id="increment" onclick="increment()">+</b>
+                                            </div>
+                                        </div>
+                                        <!-- end--here -->
+                                        </li>
+                                        <li class="Cnt_List_wrp4 Li_01_cmn">
+                                            <div class="f01">
+                                                <div class="Lft_side Sup_cmn">
+                                                    <h4>Sweet Corn Soup</h4>
+                                                    <p>Sauce tomate, mozzarella, souf
+                                                        Chilly, strawberry, etc.
+                                                        </p>
+                                                </div>
+                                                <div class="Rgt_side Sup_cmn">
+                                                    <figure>
+                                                        <img src="image/Soup2.png" alt="">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <!-- add-item -->
+                                            <div class="status_wrp">
+                                            <div class="price_bar st_cmn">
+                                                <span> $30 </span>
+                                            </div>
+                                            <div class="add_item  st_cmn">
+                                                <b id="decrement" onclick="decrement()">-</b>
+                                                <span id="counter">0</span>
+                                                <b id="increment" onclick="increment()">+</b>
+                                            </div>
+                                        </div>
+                                        <!-- end--here -->
+                                        </li>
+                                </ul>
+                                </div>
+                           </div>
+                           <!-- end--here ---sub--soups -->
+                           <!-- Veg Starters -->
+                        <div class="child_content2 child_cnt_commn1" id="Sub_List_one_2" style="display: none;">
+                            <div class="Content_heading">
+                                <div class="Item_name">
+                                    <h2>Veg Starters</h2>
+                                </div>
+                                <div class="selector">
+                                        <label for="#" class="Veg">
+                                            <input type="radio" name="radio1" id="radio1">
+                                            Veg
+                                        </label>
+                                        <!-- <label for="#" class="Non-Veg">
+                                            <input type="radio" name="radio2" id="radio2">
+                                            Non-veg
+                                        </label> -->
+                                </div>
+                            </div>
+                            <div class="Content_list_01">
+                                <ul class="unorder01">
+                                    <li class="Cnt_List_wrp1 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Hot and Sour soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side  Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup1.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp2 Li_01_cmn">
+                                    <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp3 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp4 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                            </ul>
+                            </div>
+                       </div>
+                       <!-- end--here ---Veg Starters -->
+                    </div>
+                    <!--  -->
+                      <!-- italian -->
+                      <div class="content_list_wrp List_cmn" id="List2" style="display: none;">
+                           <!-- sub_tab -->
+                           <div class="Sub_tab">
+                            <ul class="sup_01">
+                                <li class=" Sub_li_0 tab2"  onclick="openSubList2('Sub_List_two_1')" >
+                                    <span>italian Soups</span>
+                                </li>
+                                <li class="Sub_li_0 tab2 Sub_active_tab2"  onclick="openSubList2('Sub_List_two_2')" >
+                                    <span>italian veg starters</span>
+                                </li>
+                                <li class="Sub_li_0 tab2"  onclick="openSubList2('Sub_List_two_3')" >
+                                    <span>Rice Noodles and Chopsuey</span>
+                                </li>
+                                <li class="Sub_li_0 tab2"  onclick="openSubList2('Sub_List_two_4')" >
+                                    <span>Non-veg starters</span>
+                                </li>
+                            </ul>
+                       </div>
+               <!-- end--here -->
+                        <!-- subs---Soups -->
+                        <div class="child_content1 child_cnt_commn2" id="Sub_List_two_1">
+                            <div class="Content_heading">
+                                <div class="Item_name">
+                                    <h2>Soup</h2>
+                                </div>
+                                <div class="selector">
+                                        <label for="#" class="Veg">
+                                            <input type="radio" name="radio1" id="radio1">
+                                            Veg
+                                        </label>
+                                        <label for="#" class="Non-Veg">
+                                            <input type="radio" name="radio2" id="radio2">
+                                            Non-veg
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="Content_list_01">
+                                <ul class="unorder01">
+                                    <li class="Cnt_List_wrp1 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Hot and Sour soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side  Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup1.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp2 Li_01_cmn">
+                                    <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp3 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp4 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                            </ul>
+                            </div>
+                       </div>
+                       <!-- end--here ---sub--soups -->
+                        <!-- Veg Starters -->
+                        <div class="child_content2 child_cnt_commn2" id="Sub_List_two_2" style="display: none;">
+                            <div class="Content_heading">
+                                <div class="Item_name">
+                                    <h2>Veg Starters</h2>
+                                </div>
+                                <div class="selector">
+                                        <label for="#" class="Veg">
+                                            <input type="radio" name="radio1" id="radio1">
+                                            Veg
+                                        </label>
+                                        <!-- <label for="#" class="Non-Veg">
+                                            <input type="radio" name="radio2" id="radio2">
+                                            Non-veg
+                                        </label> -->
+                                </div>
+                            </div>
+                            <div class="Content_list_01">
+                                <ul class="unorder01">
+                                    <li class="Cnt_List_wrp1 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Hot and Sour soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side  Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup1.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp2 Li_01_cmn">
+                                    <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp3 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp4 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                            </ul>
+                            </div>
+                       </div>
+                       <!-- end--here ---Veg Starters -->
+                    </div>
+                    <!--  -->
+                     <!-- soup -->
+                     <div class="content_list_wrp List_cmn" id="List3">
+                      <!-- sub_tab -->
+                            <div class="Sub_tab">
+                                    <ul class="sup_01">
+                                        <li class=" Sub_li_0 tab3 Sub_active_tab3"  onclick="openSubList3('Sub_List_three_1')" >
+                                            <span>Soups</span>
+                                        </li>
+                                        <li class="Sub_li_0 tab3"  onclick="openSubList3('Sub_List_three_2')" >
+                                            <span>veg starters</span>
+                                        </li>
+                                        <li class="Sub_li_0 tab3"  onclick="openSubList3('Sub_List_three_3')" >
+                                            <span>Rice Noodles and Chopsuey</span>
+                                        </li>
+                                        <li class="Sub_li_0 tab3"  onclick="openSubList3('Sub_List_three_4')" >
+                                            <span>Non-veg starters</span>
+                                        </li>
+                                    </ul>
+                            </div>
+                       <!-- end--here -->
+                       <!-- subs---Soups -->
+                       <div class="child_content1 child_cnt_commn3" id="Sub_List_three_1">
+                            <div class="Content_heading">
+                                <div class="Item_name">
+                                    <h2>Soup</h2>
+                                </div>
+                                <div class="selector">
+                                        <label for="#" class="Veg">
+                                            <input type="radio" name="radio1" id="radio1">
+                                            Veg
+                                        </label>
+                                        <label for="#" class="Non-Veg">
+                                            <input type="radio" name="radio2" id="radio2">
+                                            Non-veg
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="Content_list_01 slider1  owl-carousel">
+                                <ul class="unorder01">
+                                    <li class="Cnt_List_wrp1 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Hot and Sour soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side  Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup1.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp2 Li_01_cmn">
+                                    <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp3 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp4 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>Sweet Corn Soup</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                            </ul>
+                            </div>
+                       </div>
+                       <!-- end--here ---sub--soups -->
+                        <!-- Veg Starters -->
+                        <div class="child_content2  child_cnt_commn3" id="Sub_List_three_2" style="display: none;">
+                            <div class="Content_heading">
+                                <div class="Item_name">
+                                    <h2>Veg Starters</h2>
+                                </div>
+                                <div class="selector">
+                                        <label for="#" class="Veg">
+                                            <input type="radio" name="radio1" id="radio1">
+                                            Veg
+                                        </label>
+                                        <!-- <label for="#" class="Non-Veg">
+                                            <input type="radio" name="radio2" id="radio2">
+                                            Non-veg
+                                        </label> -->
+                                </div>
+                            </div>
+                            <div class="Content_list_01  slider1  owl-carousel">
+                                <ul class="unorder01">
+                                    <li class="Cnt_List_wrp1 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>veg spring roll</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side  Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup1.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp2 Li_01_cmn">
+                                    <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>chilly panner dry</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                    </div>
+                                    <!-- add-item -->
+                                    <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp3 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>chilly mashroom dry</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                                    <li class="Cnt_List_wrp4 Li_01_cmn">
+                                        <div class="f01">
+                                            <div class="Lft_side Sup_cmn">
+                                                <h4>chilly potato</h4>
+                                                <p>Sauce tomate, mozzarella, souf
+                                                    Chilly, strawberry, etc.
+                                                    </p>
+                                            </div>
+                                            <div class="Rgt_side Sup_cmn">
+                                                <figure>
+                                                    <img src="image/Soup2.png" alt="">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                        <!-- add-item -->
+                                        <div class="status_wrp">
+                                        <div class="price_bar st_cmn">
+                                            <span> $30 </span>
+                                        </div>
+                                        <div class="add_item  st_cmn">
+                                            <b id="decrement" onclick="decrement()">-</b>
+                                            <span id="counter">0</span>
+                                            <b id="increment" onclick="increment()">+</b>
+                                        </div>
+                                    </div>
+                                    <!-- end--here -->
+                                    </li>
+                            </ul>
+                            </div>
+                       </div>
+                       <!-- end--here ---Veg Starters -->
+                    </div>
+                    <!--  -->
+                       <!--  -->
+                     <!-- Sea food -->
+                     <div class="content_list_wrp List_cmn" id="List4" style="display: none;">
+                           <!-- sub_tab -->
+                           <div class="Sub_tab">
+                            <ul class="sup_01">
+                                <li class=" Sub_li_0 tab4"  onclick="openSubList4('Sub_List_four_1')" >
+                                    <span>sea Soups</span>
+                                </li>
+                                <li class="Sub_li_0 tab4 Sub_active_tab4"  onclick="openSubList4('Sub_List_four_2')" >
+                                    <span>sea veg starters</span>
+                                </li>
+                                <li class="Sub_li_0 tab4"  onclick="openSubList4('Sub_List_four_3')" >
+                                    <span>Rice Noodles and Chopsuey</span>
+                                </li>
+                                <li class="Sub_li_0 tab4"  onclick="openSubList4('Sub_List_four_4')" >
+                                    <span>Non-veg starters</span>
+                                </li>
+                            </ul>
+                       </div>
+               <!-- end--here -->
+                        <div class="Content_heading">
+                            <div class="Item_name">
+                                 <h2>Sea Food</h2>
+                            </div>
+                            <div class="selector">
+                                     <label for="#" class="Veg">
+                                         <input type="radio" name="radio1" id="radio1">
+                                         Veg
+                                     </label>
+                                     <label for="#" class="Non-Veg">
+                                        <input type="radio" name="radio2" id="radio2">
+                                        Non-veg
+                                    </label>
+                             </div>
+                          </div>
+                        <div class="Content_list_01">
+                            <ul class="unorder01">
+                                <li class="Cnt_List_wrp1 Li_01_cmn">
+                                    <div class="f01">
+                                        <div class="Lft_side Sup_cmn">
+                                            <h4>Hot and Sour soup</h4>
+                                            <p>Sauce tomate, mozzarella, souf
+                                                Chilly, strawberry, etc.
+                                                </p>
+                                        </div>
+                                        <div class="Rgt_side  Sup_cmn">
+                                            <figure>
+                                                <img src="image/Soup1.png" alt="">
+                                            </figure>
+                                        </div>
+                                   </div>
+                                   <!-- add-item -->
+                                   <div class="status_wrp">
+                                    <div class="price_bar st_cmn">
+                                        <span> $30 </span>
+                                    </div>
+                                    <div class="add_item st_cmn">
+                                        <b id="decrement" onclick="decrement()">-</b>
+                                        <span id="counter">0</span>
+                                        <b id="increment" onclick="increment()">+</b>
+                                    </div>
+                                </div>
+                                <!-- end--here -->
+                                </li>
+                                <li class="Cnt_List_wrp2 Li_01_cmn">
+                                  <div class="f01">
+                                        <div class="Lft_side Sup_cmn">
+                                            <h4>Sweet Corn Soup</h4>
+                                            <p>Sauce tomate, mozzarella, souf
+                                                Chilly, strawberry, etc.
+                                                </p>
+                                        </div>
+                                        <div class="Rgt_side Sup_cmn">
+                                            <figure>
+                                                <img src="image/Soup2.png" alt="">
+                                            </figure>
+                                        </div>
+                                  </div>
+                                   <!-- add-item -->
+                                   <div class="status_wrp">
+                                    <div class="price_bar st_cmn">
+                                        <span> $30 </span>
+                                    </div>
+                                    <div class="add_item  st_cmn">
+                                        <b id="decrement" onclick="decrement()">-</b>
+                                        <span id="counter">0</span>
+                                        <b id="increment" onclick="increment()">+</b>
+                                    </div>
+                                </div>
+                                <!-- end--here -->
+                                </li>
+                                <li class="Cnt_List_wrp3 Li_01_cmn">
+                                    <div class="f01">
+                                          <div class="Lft_side Sup_cmn">
+                                              <h4>Sweet Corn Soup</h4>
+                                              <p>Sauce tomate, mozzarella, souf
+                                                  Chilly, strawberry, etc.
+                                                  </p>
+                                          </div>
+                                          <div class="Rgt_side Sup_cmn">
+                                              <figure>
+                                                  <img src="image/Soup2.png" alt="">
+                                              </figure>
+                                          </div>
+                                    </div>
+                                     <!-- add-item -->
+                                     <div class="status_wrp">
+                                      <div class="price_bar st_cmn">
+                                          <span> $30 </span>
+                                      </div>
+                                      <div class="add_item  st_cmn">
+                                          <b id="decrement" onclick="decrement()">-</b>
+                                          <span id="counter">0</span>
+                                          <b id="increment" onclick="increment()">+</b>
+                                      </div>
+                                  </div>
+                                  <!-- end--here -->
+                                  </li>
+                                  <li class="Cnt_List_wrp4 Li_01_cmn">
+                                    <div class="f01">
+                                          <div class="Lft_side Sup_cmn">
+                                              <h4>Sweet Corn Soup</h4>
+                                              <p>Sauce tomate, mozzarella, souf
+                                                  Chilly, strawberry, etc.
+                                                  </p>
+                                          </div>
+                                          <div class="Rgt_side Sup_cmn">
+                                              <figure>
+                                                  <img src="image/Soup2.png" alt="">
+                                              </figure>
+                                          </div>
+                                    </div>
+                                     <!-- add-item -->
+                                     <div class="status_wrp">
+                                      <div class="price_bar st_cmn">
+                                          <span> $30 </span>
+                                      </div>
+                                      <div class="add_item  st_cmn">
+                                          <b id="decrement" onclick="decrement()">-</b>
+                                          <span id="counter">0</span>
+                                          <b id="increment" onclick="increment()">+</b>
+                                      </div>
+                                  </div>
+                                  <!-- end--here -->
+                                  </li>
+                           </ul>
+                        </div>
+                    </div>
+                    <!--  -->
+                     <!--ice---cream -->
+                     <div class="content_list_wrp List_cmn" id="List5" style="display: none;">
+                        <!-- sub_tab -->
+                        <div class="Sub_tab">
+                            <ul class="sup_01">
+                                <li class=" Sub_li_0 tab5"  onclick="openSubList5('Sub_List_five_1')" >
+                                    <span>sea Soups</span>
+                                </li>
+                                <li class="Sub_li_0 tab5 Sub_active_tab5"  onclick="openSubList5('Sub_List_five_2')" >
+                                    <span>sea veg starters</span>
+                                </li>
+                                <li class="Sub_li_0 tab5"  onclick="openSubList5('Sub_List_five_3')" >
+                                    <span>Rice Noodles and Chopsuey</span>
+                                </li>
+                                <li class="Sub_li_0 tab5"  onclick="openSubList5('Sub_List_five_4')" >
+                                    <span>Non-veg starters</span>
+                                </li>
+                            </ul>
+                       </div>
+               <!-- end--here -->
+                        <div class="Content_heading">
+                            <div class="Item_name">
+                                 <h2>Ice cream</h2>
+                            </div>
+                            <div class="selector">
+                                     <!-- <label for="#" class="Veg">
+                                         <input type="radio" name="radio1" id="radio1">
+                                         Veg
+                                     </label>
+                                     <label for="#" class="Non-Veg">
+                                        <input type="radio" name="radio2" id="radio2">
+                                        Non-veg
+                                    </label> -->
+                             </div>
+                          </div>
+                        <div class="Content_list_01">
+                            <ul class="unorder01">
+                                <li class="Cnt_List_wrp1 Li_01_cmn">
+                                    <div class="f01">
+                                        <div class="Lft_side Sup_cmn">
+                                            <h4>Hot and Sour soup</h4>
+                                            <p>Sauce tomate, mozzarella, souf
+                                                Chilly, strawberry, etc.
+                                                </p>
+                                        </div>
+                                        <div class="Rgt_side  Sup_cmn">
+                                            <figure>
+                                                <img src="image/Soup1.png" alt="">
+                                            </figure>
+                                        </div>
+                                   </div>
+                                   <!-- add-item -->
+                                   <div class="status_wrp">
+                                    <div class="price_bar st_cmn">
+                                        <span> $30 </span>
+                                    </div>
+                                    <div class="add_item st_cmn">
+                                        <b id="decrement" onclick="decrement()">-</b>
+                                        <span id="counter">0</span>
+                                        <b id="increment" onclick="increment()">+</b>
+                                    </div>
+                                </div>
+                                <!-- end--here -->
+                                </li>
+                                <li class="Cnt_List_wrp2 Li_01_cmn">
+                                  <div class="f01">
+                                        <div class="Lft_side Sup_cmn">
+                                            <h4>Sweet Corn Soup</h4>
+                                            <p>Sauce tomate, mozzarella, souf
+                                                Chilly, strawberry, etc.
+                                                </p>
+                                        </div>
+                                        <div class="Rgt_side Sup_cmn">
+                                            <figure>
+                                                <img src="image/Soup2.png" alt="">
+                                            </figure>
+                                        </div>
+                                  </div>
+                                   <!-- add-item -->
+                                   <div class="status_wrp">
+                                    <div class="price_bar st_cmn">
+                                        <span> $30 </span>
+                                    </div>
+                                    <div class="add_item  st_cmn">
+                                        <b id="decrement" onclick="decrement()">-</b>
+                                        <span id="counter">0</span>
+                                        <b id="increment" onclick="increment()">+</b>
+                                    </div>
+                                </div>
+                                <!-- end--here -->
+                                </li>
+                                <li class="Cnt_List_wrp3 Li_01_cmn">
+                                    <div class="f01">
+                                          <div class="Lft_side Sup_cmn">
+                                              <h4>Sweet Corn Soup</h4>
+                                              <p>Sauce tomate, mozzarella, souf
+                                                  Chilly, strawberry, etc.
+                                                  </p>
+                                          </div>
+                                          <div class="Rgt_side Sup_cmn">
+                                              <figure>
+                                                  <img src="image/Soup2.png" alt="">
+                                              </figure>
+                                          </div>
+                                    </div>
+                                     <!-- add-item -->
+                                     <div class="status_wrp">
+                                      <div class="price_bar st_cmn">
+                                          <span> $30 </span>
+                                      </div>
+                                      <div class="add_item  st_cmn">
+                                          <b id="decrement" onclick="decrement()">-</b>
+                                          <span id="counter">0</span>
+                                          <b id="increment" onclick="increment()">+</b>
+                                      </div>
+                                  </div>
+                                  <!-- end--here -->
+                                  </li>
+                                  <li class="Cnt_List_wrp4 Li_01_cmn">
+                                    <div class="f01">
+                                          <div class="Lft_side Sup_cmn">
+                                              <h4>Sweet Corn Soup</h4>
+                                              <p>Sauce tomate, mozzarella, souf
+                                                  Chilly, strawberry, etc.
+                                                  </p>
+                                          </div>
+                                          <div class="Rgt_side Sup_cmn">
+                                              <figure>
+                                                  <img src="image/Soup2.png" alt="">
+                                              </figure>
+                                          </div>
+                                    </div>
+                                     <!-- add-item -->
+                                     <div class="status_wrp">
+                                      <div class="price_bar st_cmn">
+                                          <span> $30 </span>
+                                      </div>
+                                      <div class="add_item  st_cmn">
+                                          <b id="decrement" onclick="decrement()">-</b>
+                                          <span id="counter">0</span>
+                                          <b id="increment" onclick="increment()">+</b>
+                                      </div>
+                                  </div>
+                                  <!-- end--here -->
+                                  </li>
+                           </ul>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <!-- price_wrp -->
+                      <!-- button -->
+                      <div class="order-btn">
+                        <div class="order-list ord_cmn">
+                            <h3>your order <span>(5)</span></h3>
+                        </div>
+                        <div class="order-list2 ord_cmn" >
+                            <a href="#" class="a01">Subtotal: ₹500</a>
+                            <a href="verify.html" class="a02">Continue</a>
+                        </div>
+                    </div>
+              </div>
+          </div>
+       </div>
+       <!-- ------popup----verify -->
+   </div>
+</main>
+
+
+<!-- script---section -->
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>
