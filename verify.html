@@ -14,7 +14,7 @@
 </head>
 <body>
 <main>
-<div class="site_wrapper" id="very_page_wrapper">
+<div class="site_wrapper" id="verify_page_wrapper">
     <header>
         <div class="logo">
            <div class="container">
@@ -26,18 +26,6 @@
                            <h2>Chinese club  </h2>
                         </a>
                     </div>
-                    <ul class="Login_wrp nv_cmn01">
-                        <li>
-                            <button>
-                                <span>Login</span>
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                <span>Sign up</span>
-                            </button>
-                        </li>
-                    </ul>
                </div>
             </div>
         </div>
@@ -51,10 +39,9 @@
         <!-- verify---wrappper -->   
         <div class="container">
           <div class="Main_verify_wrapper">
-                <div class="vry_heading">
-                    <h2>Secure Checkout</h2>
-                </div>
+
              <div class="Verify_content_wrp">
+                 <!-- end---here -->
                  <div class="Verify_left_Side VRS_cmn">
                      <div class="Acccount_wrp">
                          <h2>Account</h2>
@@ -62,32 +49,122 @@
                      </div>
                      <div class="btn_grp">
                          <div class="btn01 btn_cmn01">
-                             <button class="logbtn btn_active">Login</button>
+                             <button class="logbtn Btn1">Login</button>
                          </div>
                          <div class="btn02 btn_cmn01">
-                            <button class="logbtn">Sign up</button>
+                            <button class="logbtn btn_active Btn2">Sign up</button>
                         </div>
                      </div>
+                        <!-- ------popup----verify -->
+                        <div class="Pop_up_wrapper" id="pop_id04">
+                            <div class="Pop_Up_form_wrp">
+                                <!-- <a href="#" onclick="document.getElementById('pop_id04').style.display='none'" class="Close3" title="close">X</a> -->
+                                    <div class="inner">
+                                        <form class="login">
+                                            <div class="F-heading">
+                                                <h2>Login</h2>
+                                            </div>
+                                            <div class="Frm_Cnt">
+                                                <div class="text">
+                                                    <input type="email" name="email" required>
+                                                    <span data-placeholder="E-mail"></span>
+                                                </div>
+                                                <div class="text">
+                                                    <input type="password" name="password" required>
+                                                    <span data-placeholder="Password"></span>
+                                                </div>
+                                                <input type="submit" value="login">
+                                                <!-- <div class="account-text">
+                                                <p> Don't have an account?</p>  
+                                                <a href="#none" class="Sign">Sign up</a>
+                                                </div> -->
+                                            </div>
+                                        </form>
+                                    </div>
+                            </div>
+                        </div>
+                    <!-- sign-up -->
+                    <div class="Pop_up_wrapper2" id="pop_id05">
+                        <div class="Pop_Up_form_wrp2">
+                        <!-- <a href="#" onclick="document.getElementById('pop_id05').style.display='none'" class="Close3" title="close">X</a> -->
+                            <div class="inner">
+                                <form class="login">
+                                    <div class="F-heading">
+                                        <h2>Sign up</h2>
+                                    </div>
+                                    <div class="Frm_Cnt">
+                                        <div class="text">
+                                            <input type="text" name="Cname" required>
+                                            <span data-placeholder="Name"></span>
+                                        </div>
+                                        <div class="text">
+                                            <input type="email" name="email" required>
+                                            <span data-placeholder="E-mail"></span>
+                                        </div>
+                                        <div class="text">
+                                            <input type="password" name="password" required>
+                                            <span data-placeholder="Password"></span>
+                                        </div>
+                                        <input type="submit" value="Sign up">
+                                        <!-- <div class="account-text">
+                                        <p>Already a member?</p>  
+                                        <a href="#none" class="Log">Log in</a>
+                                        </div> -->
+                                    </div>
+                                </form>
+                            </div>
+                    </div>
+                  </div>
                  </div>
                  <!-- right_side -->
                  <div class="Verify-right-Side VRS_cmn">
                      <div class="vry_heading">
                          <h2>Summary</h2>
                      </div>
-                     <ul class="order-item_wrp">
-                         <li class="order-L01">
-                            <h3>Hot and Sour soup</h3>
-                             <p>₹130</p>
-                         </li>
-                         <li class="order-L02">
-                            <div class="add_item  st_cmn">
-                                <b id="decrement" onclick="decrement()">-</b>
-                                <span id="counter">0</span>
-                                <b id="increment" onclick="increment()">+</b>
-                            </div>
-                            <p>₹260</p>
-                         </li>
-                        </ul>
+                        <div class="main_order_item">
+                            <ul class="order-item_wrp">
+                            <li class="order-L01">
+                                <h3>Hot and Sour soup</h3>
+                                <p>₹130</p>
+                            </li>
+                            <li class="order-L02">
+                                <div class="add_item  st_cmn">
+                                    <b id="decrement" onclick="decrement()">-</b>
+                                    <span id="counter">0</span>
+                                    <b id="increment" onclick="increment()">+</b>
+                                </div>
+                                <p>₹260</p>
+                            </li>
+                            </ul>
+                            <ul class="order-item_wrp">
+                                <li class="order-L01">
+                                <h3>Hot and Sour soup</h3>
+                                    <p>₹130</p>
+                                </li>
+                                <li class="order-L02">
+                                <div class="add_item  st_cmn">
+                                    <b id="decrement" onclick="decrement()">-</b>
+                                    <span id="counter">0</span>
+                                    <b id="increment" onclick="increment()">+</b>
+                                </div>
+                                <p>₹260</p>
+                                </li>
+                            </ul>
+                            <ul class="order-item_wrp">
+                                <li class="order-L01">
+                                <h3>Hot and Sour soup</h3>
+                                    <p>₹130</p>
+                                </li>
+                                <li class="order-L02">
+                                <div class="add_item  st_cmn">
+                                    <b id="decrement" onclick="decrement()">-</b>
+                                    <span id="counter">0</span>
+                                    <b id="increment" onclick="increment()">+</b>
+                                </div>
+                                <p>₹260</p>
+                                </li>
+                            </ul>
+                        </div>
                         <!-- price--list -->
                         <div class="SbTotall_price">
                             <ul>
@@ -115,9 +192,7 @@
         </div>
         <!-- end--here -->
     </div>
-
-       <!-- ------popup----verify -->
-    </div>
+</div>
 </main>
 
 

@@ -14,8 +14,24 @@ $(document).ready(function(){
       $(".item5").click(function(){
         $("#id08").fadeToggle("slow");
       });
-
-
+      $(".Btn1").click(function(){
+        $(".Pop_up_wrapper").fadeToggle("slow");
+        $(".Pop_up_wrapper2").css("display","none");
+      });
+      $(".Btn2").click(function(){
+        $(".Pop_up_wrapper2").fadeToggle("slow");
+        $(".Pop_up_wrapper").css("display","none");
+      });
+    //----sign-up--//
+    $(".Log").click(function(){
+      $(".Pop_up_wrapper").fadeToggle("slow");
+      $(".Pop_up_wrapper2").css("display","none");
+    });
+ //----log-in--//
+ $(".Sign").click(function(){
+  $(".Pop_up_wrapper2").fadeToggle("slow");
+  $(".Pop_up_wrapper").css("display","none");
+});
   // add & Remove class
   $(".List_cmn1").click(function () {
     if(!$(this).hasClass('List_active'))
@@ -108,6 +124,7 @@ $('.slider2').owlCarousel({
   loop: true,
   margin: 0,
   //autoplay: true,
+  nav:true,
   autoplayTimeout: 4000,
   smartSpeed: 1500,
   responsive: {
@@ -115,7 +132,7 @@ $('.slider2').owlCarousel({
           items: 1
       },
       600: {
-          items: 1
+          items:1
       },
       1000: {
           items: 1
@@ -217,25 +234,36 @@ function openNav() {
   //----end---here----//
         //----Sub---open_list------//
 
-        function openSubList4(ListName) {
-          var i;
-          var x = document.getElementsByClassName("child_cnt_commn4");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          document.getElementById(ListName).style.display = "block";  
-        }
-      
-        //----end---here----//
-                //----Sub---open_list------//
+function openSubList4(ListName) {
+var i;
+var x = document.getElementsByClassName("child_cnt_commn4");
+for (i = 0; i < x.length; i++) {
+  x[i].style.display = "none";  
+}
+document.getElementById(ListName).style.display = "block";  
+}
 
-                function openSubList5(ListName) {
-                  var i;
-                  var x = document.getElementsByClassName("child_cnt_commn5");
-                  for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";  
-                  }
-                  document.getElementById(ListName).style.display = "block";  
-                }
-              
-                //----end---here----//
+//----end---here----//
+      //----Sub---open_list------//
+
+  function openSubList5(ListName) {
+    var i;
+    var x = document.getElementsByClassName("child_cnt_commn5");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";  
+    }
+    document.getElementById(ListName).style.display = "block";  
+  }
+ //----end---here----//
+
+ /////----form----sectionn---//
+
+ $(function(){
+  $('.text input').focusin(function(){
+    $(this).addClass('focus');
+  });
+  $('.text input').focusout(function(){
+    if($(this).val() == "")
+    $(this).removeClass('focus');
+  });
+});
