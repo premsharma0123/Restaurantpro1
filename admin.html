@@ -12,11 +12,240 @@
         <link rel="stylesheet" href="css/owl.carousel.min.css">
         <link rel="stylesheet" href="css/animate.css">
     </head>
-<body>
-    
-    <main>
+<body>   
 
+    <main>
+        <div class="site_wrapper Admin_page_wrapper">
+            <header>
+                <div class="logo">
+                    <div class="main-bar" class="openbtn" onclick="openNav()">
+                        <div class="a1"></div>
+                        <div class="b1"></div>
+                        <div class="c1"></div>
+                    </div>
+                    <a href="#">
+                        <!-- <img src="#" alt=""> -->
+                        <h2>Chinese club  </h2>
+                    </a>
+                </div>
+            </header>
+
+            <!-- Admin-content -->
+               <div class="Admin_content_wrp">
+                 <div class="Admin-left_side admin_cmn1" id="sidebar">
+                    <div class="child-side">
+                        <ul>
+                            <li class="Ord_btn ORd_avtive1"><a href="#"><i class="fas fa-pallet"></i> Add inventory</a></li>
+                            <li class="Ord_btn"><a href="OrderDetail.html"><i class="fas fa-calendar-week"></i> order detail</a></li>
+                        </ul>
+                    </div>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-chevron-left"></i></a>
+                 </div>
+                 <div class="Admin-right_side admin_cmn1" id="Sift1">
+                     <div class="dashboard--wrp">
+                         <div class="Form_cotegory">
+                             <div class="heading-top">
+                                 <div class="head--a1   btn_active head_a1_cmn" onclick="openSubList1('Sub_List_one_1')"> <h2> Add category</h2></div>
+                                 <div class="head--a2  head_a1_cmn" onclick="openSubList1('Sub_List_one_2')"><h2>Add Item</h2></div>
+                             </div>
+                             <!-- form_wrp--1 -->
+                             <div class="form_wrp child_cnt_commn1" id="Sub_List_one_1">
+                                 <form action="#" method="post">
+                                     <div class="catgry_01 catgry_cmn">
+                                         <label for="#">
+                                             category name
+                                             <input type="text" name="category_name" placeholder="Category Name">
+                                         </label>
+                                     </div>
+                                     <div class="catgry_02 catgry_cmn">
+                                       <select name="parent_category" id="parent_category">
+                                           <option value="parent category">parent category  </option>
+                                       </select>
+                                    </div>
+                                    <div class="catgry_03 catgry_cmn">
+                                        <label for="#">
+                                            category description
+                                            <textarea name="description1" id="description1" cols="30" rows="10"></textarea>
+                                        </label>
+                                    </div>
+                                    <!-- submit -->
+                                    <div class="catgry_04 catgry_cmn Submit AddCategory">
+                                        <label for="#">
+                                            <input type="submit" id="AddCategory" value="Add Category">
+                                         </label>
+                                    </div>
+                                 </form>
+                             </div>
+                             <!-- end--here -->
+                                   <!-- form_wrp--2 -->
+                                   <div class="form_wrp child_cnt_commn1" style="display: none;" id="Sub_List_one_2">
+                                    <form action="#" method="post">
+                                        <div class="catgry_01 catgry_cmn">
+                                            <label for="#">
+                                                Item name
+                                                <input type="text" name="category_name" placeholder="Item name" autocapitalize="off">
+                                            </label>
+                                        </div>
+                                        <div class="catgry_02 catgry_cmn">
+                                          <select name="parent_category" id="parent_category">
+                                              <option value="parent category">category  </option>
+                                          </select>
+                                       </div>
+                                       <div class="catgry_02 catgry_cmn">
+                                        <select name="parent_category" id="parent_category">
+                                            <option value="parent category">Sub category  </option>
+                                        </select>
+                                     </div>
+                                       <div class="catgry_05 catgry_cmn">
+                                        <label for="#">
+                                           <b>Item image</b> 
+                                            <input type="file" class="file" name="fil1" id="file1" accept="image/*" >
+                                            <span class="img_wrp">img src</span>
+                                            <!-- <input type="text" name="category_name" placeholder="Item price" required> -->
+                                        </label>
+                                      </div>
+                                       <div class="catgry_06 catgry_cmn">
+                                        <label for="#">
+                                            Item price
+                                            <input type="number" name="category_name" placeholder="Item price">
+                                            <span class="price1">₹</span>
+                                        </label>
+                                      </div>
+                                       <div class="catgry_03 catgry_cmn">
+                                            <label for="#">
+                                                category description
+                                                <textarea name="description1" id="description1" cols="30" rows="10"></textarea>
+                                            </label>
+                                       </div>
+                                       <!-- submit -->
+                                       <div class="catgry_04 catgry_cmn Submit AddItem">
+                                           <label for="#">
+                                               <input type="submit" id="AddItem" value="Add Item">
+                                            </label>
+                                       </div>
+                                    </form>
+                                </div>
+                                <!-- end--here -->
+                         </div>
+                         <!-- table1-----for category -->
+                          <div class="Table_wrp">
+                              <div class="table_childd_wrp">
+                                <table>
+                                    <!-- <caption>
+                                        category
+                                    </caption> -->
+                                    <thead>
+                                        <tr>
+                                            <th>Sr</th>
+                                            <th>category</th>
+                                            <th>parent</th>
+                                            <th>description</th>
+                                            <th>status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>thai</td>
+                                            <td>veg</td>
+                                            <td>lorem description</td>
+                                            <td>
+                                                 <!-- active -->
+                                                 <i class="fas fa-check"></i>
+                                                </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>italian</td>
+                                            <td>veg</td>
+                                            <td>lorem description</td>
+                                            <td>
+                                                 <!-- deactive  -->
+                                                <i class="fas fa-times"></i>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Chinese</td>
+                                            <td>non-veg</td>
+                                            <td>lorem description</td>
+                                            <td>
+                                                 <!-- active -->
+                                                 <i class="fas fa-check"></i>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                              </div>
+                          </div>
+                         <!----category-----end-----here---->
+                          <!-- table1-----for category -->
+                          <div class="Table_wrp2" id="Table_wrp2">
+                            <div class="table_childd_wrp">
+                              <table>
+                                  <!-- <caption>
+                                      category
+                                  </caption> -->
+                                  <thead>
+                                      <tr>
+                                          <th>Sr</th>
+                                          <th>Item name</th>
+                                          <th>Item category</th>
+                                          <th>Item parent</th>
+                                          <th>Item price</th>
+                                          <th>Item description</th>
+                                          <th>status</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td>1</td>
+                                          <td>Tandoori1</td>
+                                          <td>thai</td>
+                                          <td>veg</td>
+                                          <td>₹130</td>
+                                          <td>lorem description</td>
+                                          <td>
+                                               <!-- active  -->
+                                              <i class="fas fa-check"></i>
+                                            </td>
+                                      </tr>
+                                      <tr>
+                                          <td>2</td>
+                                          <td>Tandoori2</td>
+                                          <td>italian</td>
+                                          <td>veg</td>
+                                          <td>₹120</td>
+                                          <td>lorem description</td>
+                                          <td>
+                                               <!-- deactive  -->
+                                              <i class="fas fa-times"></i>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td>3</td>
+                                          <td>Tandoori3</td>
+                                          <td>Chinese</td>
+                                          <td>non-veg</td>
+                                          <td>₹100</td>
+                                          <td>lorem description</td>
+                                          <td>
+                                               <!-- active  -->
+                                              <i class="fas fa-check"></i>
+                                            </td>
+                                      </tr>
+                                  </tbody>
+                              </table>
+                            </div>
+                        </div>
+                       <!----category-----end-----here---->
+                     </div>
+                 </div>
+               </div>
+            <!----end----here -->
+        </div>
     </main>
+
 <!-- script---section -->
 <script src="js/jquery.min.js"></script>
 <script src="js/main.js"></script>

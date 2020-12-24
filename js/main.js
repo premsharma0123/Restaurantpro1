@@ -93,6 +93,25 @@ $(document).ready(function(){
               }
             });
         //---end--here---//
+                // add button & Remove class
+                $(".head_a1_cmn").click(function () {
+                  if(!$(this).hasClass('btn_active'))
+                  {    
+                      $(".head_a1_cmn.btn_active").removeClass("btn_active");
+                      $(this).addClass("btn_active");        
+                  }
+                });
+                //----table---toggle---//
+
+                $(".head--a1").click(function(){
+                  $(".Table_wrp").fadeToggle("slow");
+                  $("#Table_wrp2").css("display","none");
+                })
+                $(".head--a2").click(function(){
+                  $("#Table_wrp2").fadeToggle("slow");
+                  $(".Table_wrp").css("display","none");
+                })
+            //---end--here---//
       //---end--here---//
 
 // -------------*****************--------------------///
@@ -267,3 +286,25 @@ document.getElementById(ListName).style.display = "block";
     $(this).removeClass('focus');
   });
 });
+
+
+
+
+// -------nav---part----//
+function openNav() {
+  var sidebar =  document.querySelectorAll("#sidebar");
+  // var c2 = document.querySelectorAll(".CampL2");
+  var sift  =    document.getElementById("Sift1");//.style.marginLeft = "250px";
+    sidebar[0].style = "width:250px !important";
+   // debugger
+  //   c2.style.padding="2rem 0 0 1rem";
+    sift.style ="margin-left :250px";
+    
+  }
+  
+  function closeNav() {
+    document.getElementById("sidebar").style.width = "0";
+  var sift  =  document.getElementById("Sift1");//.style.marginLeft= "13px";
+  //    sift.style ="padding-top : 0rem !important";
+     sift.style = "margin-left : 155px"
+  }
