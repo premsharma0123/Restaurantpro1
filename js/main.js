@@ -112,6 +112,11 @@ $(document).ready(function(){
                   $(".Table_wrp").css("display","none");
                 })
             //---end--here---//
+
+                // //// submit pop up 
+        
+  
+
       //---end--here---//
 
 // -------------*****************--------------------///
@@ -151,10 +156,16 @@ $('.slider2').owlCarousel({
           items: 1
       },
       600: {
-          items:1
+          items:2
+      },
+     767: {
+        items:2
+      },
+      800: {
+        items:3
       },
       1000: {
-          items: 1
+          items: 5
       }
   }
 });
@@ -308,3 +319,25 @@ function openNav() {
   //    sift.style ="padding-top : 0rem !important";
      sift.style = "margin-left : 155px"
   }
+
+
+
+
+  // pop---up----//
+  
+  function mSubmit() {
+    var x = document.getElementById("main02");
+    if (x.style.display === "block") {
+     x.style.display = "none";
+    } else {
+     x.style.display = "block";
+    }
+}
+function itemSubmit() {
+  var x = document.getElementById("main03");
+  if (x.style.display === "block") {
+   x.style.display = "none";
+  } else {
+   x.style.display = "block";
+  }
+}
