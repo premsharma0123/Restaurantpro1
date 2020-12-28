@@ -265,6 +265,7 @@ a, p {
   padding: 1rem .5rem 1rem;
   margin: 0 0 1rem;
   border-bottom: 1px solid  #99999941;
+  border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,6 +328,7 @@ a, p {
   -webkit-box-pack: start !important;
       -ms-flex-pack: start !important;
           justify-content: flex-start !important;
+  border-radius: 5px;
 }
 
 .site_wrapper .banner .main_Content_wrp .content_list_wrp .Sub_tab .sup_01 .Sub_li_0 {

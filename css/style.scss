@@ -223,6 +223,7 @@
                      padding: 1rem .5rem 1rem;
                      margin: 0 0 1rem;
                      border-bottom: 1px solid  #99999941;
+                     border-radius: 5px;
                     @include flex;
                     justify-content: inherit!important;
                     width: 100%;
@@ -258,6 +259,7 @@
                         background: #46464666; 
                         // padding: 1rem .5rem;
                         justify-content: flex-start!important;
+                        border-radius: 5px;
                     .Sub_li_0{
                         display: inline-block;
                         list-style-type: none;
