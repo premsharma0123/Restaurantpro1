@@ -2382,10 +2382,8 @@ a.closebtn:hover {
   }
   .site_wrapper .banner .main_Content_wrp .slider1 button.owl-next span, .site_wrapper .banner .main_Content_wrp .slider1 button.owl-prev span, .site_wrapper .banner .main_Content_wrp .slider1 button.owl-prev span {
     font-size: 1.5rem;
-    font-weight: bold;
-    display: inline-block;
-    -webkit-transform: translate(0px, -1px);
-    transform: translate(0px, -2px);
+    -webkit-transform: translate(0px, -2px);
+            transform: translate(0px, -2px);
   }
 }
 /*# sourceMappingURL=style.css.map */
