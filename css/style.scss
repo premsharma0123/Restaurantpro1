@@ -75,6 +75,7 @@
     //--header---//
     header{
         padding: 1rem 0;
+        border-bottom: 1px solid #f1d0b882;
         .logo{
             width: 100%;
             text-align: center;
@@ -1022,7 +1023,7 @@
             left: 0;
             top: 91px;
             height: 100%;
-            background: linear-gradient(120deg, #f5b041 0%, #ea595980 100%);
+            background: linear-gradient(120deg, #f5b041 0%, #fea494 100%);
             // border-top: 1px solid #f1d0b882;
             .child-side{
                 ul{

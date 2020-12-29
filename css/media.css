@@ -30,6 +30,7 @@
   }
   .Admin_page_wrapper .Admin_content_wrp .Admin-left_side {
     top: 33px;
+    width: 250px;
   }
   .child-side {
     padding: 3.5rem 0 0;
@@ -77,6 +78,15 @@
   #verify_page_wrapper header .logo .nav_item_Wrp .nv01 {
     width: 10%;
     text-align: left;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp {
+    margin: 0 auto;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp table thead tr th, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp table thead tr th {
+    font-size: 1rem;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp table tbody tr td, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp table tbody tr td {
+    font-size: 15px;
   }
 }
 
@@ -137,6 +147,22 @@
     width: 100%;
     padding: 1rem;
     border-radius: 5px;
+  }
+  #Sift1 {
+    margin: 0px !important;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side {
+    width: 100%;
+    padding: 2rem 0 0;
+  }
+  #sidebar {
+    width: 0% !important;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 {
+    margin: 10rem 0 2rem;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp {
+    width: 100%;
   }
 }
 
@@ -250,6 +276,25 @@
   #verify_page_wrapper {
     position: relative;
     padding: 0 0 1.5rem;
+  }
+  .child-side {
+    padding: 2.9rem 0 0;
+  }
+  .main-bar {
+    top: 6px;
+  }
+  #Order_detail_wrp .Admin-right_side .Table_wrp3 {
+    overflow-x: scroll;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp {
+    overflow-x: scroll;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp table thead tr th, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp table thead tr th {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp table tbody tr td, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp table tbody tr td {
+    font-size: 14px;
   }
 }
 
@@ -414,6 +459,22 @@
   #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side {
     padding: .5rem 0;
   }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-left_side .child-side ul li a {
+    font-size: 15px;
+    padding: 0 0 0 37px;
+    text-align: left;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .main-bar {
+    top: 2px;
+    left: 15px;
+  }
+  #Order_detail_wrp header a h2 {
+    text-align: right;
+    margin: 0 0 0 3rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -489,6 +550,23 @@
   #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify_left_Side {
     margin: .5rem 0 0;
     padding: 1rem 0;
+  }
+  .main-bar div {
+    width: 32px;
+    height: 3px;
+    margin: 5px 0;
+  }
+  .main-bar {
+    top: 3px;
+    left: 15px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-left_side .child-side ul li a {
+    font-size: 14px;
+    padding: 0 0 0 13px;
+  }
+  #Order_detail_wrp header a h2 {
+    text-align: center;
+    margin: 0 7px 0 3rem;
   }
 }
 /*# sourceMappingURL=media.css.map */
