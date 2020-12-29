@@ -1902,7 +1902,7 @@ a.closebtn:hover {
 #sidebar {
   height: 100%;
   position: fixed;
-  z-index: 4;
+  z-index: 3;
   left: 0;
   overflow-x: hidden;
   -webkit-transition: all 0.5s ease-in-out;

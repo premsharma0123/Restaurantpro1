@@ -18,6 +18,11 @@
         <div class="site_wrapper Admin_page_wrapper" id="Order_detail_wrp">
             <header>
                 <div class="logo">
+                    <div class="main-bar" class="openbtn" onclick="openNav()">
+                        <div class="a1"></div>
+                        <div class="b1"></div>
+                        <div class="c1"></div>
+                    </div>
                     <a href="#">
                         <!-- <img src="#" alt=""> -->
                         <h2>Chinese club  </h2>
@@ -26,24 +31,25 @@
             </header>
 
             <!-- Admin-content -->
-               <div class="Admin_content_wrp">
-                 <div class="Admin-left_side admin_cmn1">
+            <div class="Admin_content_wrp">
+                <div class="Admin-left_side admin_cmn1" id="sidebar">
                     <div class="child-side">
                         <ul>
-                            <li class="Ord_btn"><a href="admin.html"><i class="fas fa-pallet"></i> Add inventory</a></li>
-                            <li class="Ord_btn ORd_avtive2"><a href="#"><i class="fas fa-calendar-week"></i> order detail</a></li>
+                            <li class="Ord_btn"><a href="admin.html"><i class="fas fa-pallet"></i> <span class="spn01"> Add inventory</span></a></li>
+                            <li class="Ord_btn ORd_avtive2"><a href="#"><i class="fas fa-calendar-week"></i> <span class="spn01"> order detail</span></a></li>
                         </ul>
                     </div>
-                 </div>
-                 <div class="Admin-right_side admin_cmn1">
-                     <div class="dashboard--wrp">
-                         <!-- table1-----for category -->
-                          <div class="Table_wrp Table_wrp3">
-                              <div class="table_childd_wrp">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-chevron-left"></i></a>
+                </div>
+                <div class="Admin-right_side admin_cmn1" id="Sift1">
+                    <div class="dashboard--wrp">
+                        <!-- table1-----for category -->
+                        <div class="Table_wrp Table_wrp3">
+                            <div class="table_childd_wrp">
                                 <table>
                                     <!-- <caption>
-                                        category
-                                    </caption> -->
+                                category
+                            </caption> -->
                                     <thead>
                                         <tr>
                                             <th>Sr</th>
@@ -66,7 +72,7 @@
                                                 <!-- 349021 -->
                                             </td>
                                             <td>7</td>
-                                           </tr>
+                                        </tr>
                                         <tr>
                                             <td>2</td>
                                             <td>italian</td>
@@ -89,15 +95,16 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                              </div>
-                          </div>
-                         <!----category-----end-----here---->
-                     </div>
-                 </div>
-               </div>
+                            </div>
+                        </div>
+                        <!----category-----end-----here---->
+                    </div>
+                </div>
+            </div>
             <!----end----here -->
         </div>
     </main>
+
 
 <!-- script---section -->
 <script src="js/jquery.min.js"></script>

@@ -304,20 +304,21 @@ document.getElementById(ListName).style.display = "block";
 // -------nav---part----//
 function openNav() {
   var sidebar =  document.querySelectorAll("#sidebar");
-  // var c2 = document.querySelectorAll(".CampL2");
+  //  var c3 = document.getElementsByClassName("spn01");
   var sift  =    document.getElementById("Sift1");//.style.marginLeft = "250px";
     sidebar[0].style = "width:250px !important";
    // debugger
-  //   c2.style.padding="2rem 0 0 1rem";
     sift.style ="margin-left :250px";
-    
+    // c3.style = "display: none";
   }
   
   function closeNav() {
-    document.getElementById("sidebar").style.width = "0";
+    document.getElementById("sidebar").style.width = "0";//"50px";
+//  var c3 = document.getElementsByClassName("spn01");
   var sift  =  document.getElementById("Sift1");//.style.marginLeft= "13px";
   //    sift.style ="padding-top : 0rem !important";
-     sift.style = "margin-left : 155px"
+     sift.style = "margin-left : 155px";
+    //  c3.style = "display: none";
   }
 
 
