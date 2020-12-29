@@ -48,6 +48,9 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -163,6 +166,10 @@
   }
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp {
     width: 100%;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory {
+    width: 90%;
+    margin: 7rem auto 0;
   }
 }
 
@@ -295,6 +302,13 @@
   }
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp table tbody tr td, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp table tbody tr td {
     font-size: 14px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_05 .img_wrp {
+    top: 24px;
+    right: -119px;
+  }
+  div#Table_wrp2 {
+    margin: 4rem 0 2rem;
   }
 }
 
@@ -477,6 +491,19 @@
   }
   #Order_detail_wrp .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 {
     margin: 6rem 0 2rem;
+  }
+  .Admin_page_wrapper header a h2 {
+    text-align: right;
+    margin: 0 0 0 3rem;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory {
+    width: 100%;
+    margin: 5rem auto 0;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_05 .img_wrp {
+    top: 24px;
+    right: -80px;
+    overflow: hidden;
   }
 }
 
