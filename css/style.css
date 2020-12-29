@@ -54,6 +54,7 @@ a, p {
   z-index: 3;
   padding: 0 0 1rem;
   background: #ffc96600;
+  overflow: hidden;
 }
 
 .site_wrapper::before {
