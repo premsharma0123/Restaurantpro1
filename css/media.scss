@@ -192,5 +192,11 @@
         margin: 0 10px 24px 0;
         display: inline-block;
     }
-    
+    .site_wrapper .banner .main_Content_wrp .content_list_wrp .Sub_tab .sup_01 .Sub_li_0{
+        width: 90%;
+    }
+    .site_wrapper .banner .main_Content_wrp .slider1 button.owl-next span, .site_wrapper .banner .main_Content_wrp .slider1 button.owl-prev span {
+        font-size: 1.5rem;
+        transform: translate(0px, -2px);
+    }
 }
