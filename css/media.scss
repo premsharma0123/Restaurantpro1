@@ -29,6 +29,24 @@
     width: 49%;
 }
 // -----end----here-----------///
+
+//-----admin-----page--------///
+.Admin_page_wrapper .Admin_content_wrp .Admin-left_side{
+    top: 33px;
+}
+.child-side {
+    padding: 3.5rem 0 0;
+}
+.Admin_page_wrapper .Admin_content_wrp .Admin-left_side .child-side ul li a {
+    padding-left: 0;
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+//---end------here---admin------//
+
+
 }
 
 

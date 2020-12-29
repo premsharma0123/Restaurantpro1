@@ -1302,7 +1302,6 @@ a, p {
   top: 91px;
   height: 100%;
   background: linear-gradient(120deg, #f5b041 0%, #ea595980 100%);
-  border-top: 1px solid #f1d0b882;
 }
 
 .Admin_page_wrapper .Admin_content_wrp .Admin-left_side .child-side ul li {
@@ -1836,6 +1835,10 @@ a, p {
   display: block !important;
 }
 
+#Order_detail_wrp header {
+  border-bottom: 1px solid #f1d0b882;
+}
+
 .main-bar {
   left: 40px;
   top: 15px;
@@ -2228,6 +2231,25 @@ a.closebtn:hover {
   }
   .btn_cmn01 {
     width: 49%;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-left_side {
+    top: 33px;
+  }
+  .child-side {
+    padding: 3.5rem 0 0;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-left_side .child-side ul li a {
+    padding-left: 0;
+    padding: 0 .5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

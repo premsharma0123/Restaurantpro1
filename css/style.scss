@@ -1023,7 +1023,7 @@
             top: 91px;
             height: 100%;
             background: linear-gradient(120deg, #f5b041 0%, #ea595980 100%);
-            border-top: 1px solid #f1d0b882;
+            // border-top: 1px solid #f1d0b882;
             .child-side{
                 ul{
                  //   padding: 1rem 0 0;
@@ -1461,6 +1461,9 @@
         .Table_wrp3{
             display: block!important;
         }
+    }
+    header{
+        border-bottom: 1px solid #f1d0b882;
     }
 }
 
