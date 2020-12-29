@@ -114,6 +114,17 @@
     #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify_left_Side {
          margin: 1rem 0 0;
     }
+    #verify_page_wrapper {
+        position: relative;
+        padding: 0 0 1.5rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper {
+        background: #fff;
+        margin: 2rem auto 0;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
 // -----end----here-----------///
 }
     
