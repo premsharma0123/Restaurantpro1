@@ -192,6 +192,35 @@
   #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp .order-L02 p {
     font-size: 14px;
   }
+  #verify_page_wrapper .inner .login .F-heading h2 {
+    font-size: 1.3rem;
+    padding: .9rem 1rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 button {
+    padding: .8rem 5.2rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 .btn_active {
+    padding: .9rem 5.2rem;
+  }
+  #verify_page_wrapper .login input[type=submit] {
+    padding: .8rem 3rem;
+    font-size: 1rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .Subtmit_btn a {
+    padding: .8rem 3rem;
+    font-size: 1rem;
+  }
+  #verify_page_wrapper .inner .login .Frm_Cnt {
+    padding: 1rem 1rem .1rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .Acccount_wrp p {
+    font-size: 15px;
+    padding: 1rem 0 .5rem;
+  }
+  #verify_page_wrapper {
+    position: relative;
+    padding: 0 0 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -219,6 +248,56 @@
   .site_wrapper .banner .main_Content_wrp .order-btn .order-list2 .a02 {
     font-size: 1rem;
   }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp {
+    width: 100%;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 button {
+    padding: .7rem 3.2rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 .btn_active {
+    padding: .8rem 3.2rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .vry_heading h2 {
+    font-size: 1.3rem;
+    margin: 0rem 0 1rem;
+    text-align: center;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .Acccount_wrp h2 {
+    text-align: center;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .Acccount_wrp p {
+    font-size: 14px;
+    padding: 1rem 0 .5rem;
+    text-align: center;
+  }
+  #verify_page_wrapper .inner .login .F-heading h2 {
+    font-size: 1.3rem;
+    padding: .9rem 1rem;
+    text-align: center;
+  }
+  #verify_page_wrapper .inner {
+    width: 100%;
+    margin: 1.5rem auto 0;
+  }
+  #verify_page_wrapper .Main_verify_wrapper {
+    padding: .5rem;
+    margin: 2rem auto 0;
+  }
+  .site_wrapper header .logo a h2 {
+    font-size: 2.1rem;
+  }
+  #verify_page_wrapper header .logo .nav_item_Wrp .nv01 a {
+    font-size: 1rem;
+    padding: .6rem .8rem;
+  }
+  #verify_page_wrapper header .logo .nav_item_Wrp .nv01 {
+    width: 53px;
+    overflow: hidden;
+  }
+  #verify_page_wrapper header .logo .nav_item_Wrp .nv02 {
+    width: 79%;
+    text-align: left;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -238,7 +317,8 @@
             justify-content: center !important;
   }
   .site_wrapper header .logo a h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
   }
   .site_wrapper .banner .main_Content_wrp .heading_tab .List_cmn1 {
     width: 70%;
@@ -291,6 +371,16 @@
   .order-list2 {
     text-align: center;
   }
+  #verify_page_wrapper header .logo .nav_item_Wrp .nv01 a {
+    font-size: 1rem;
+    padding: .5rem .7rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 .btn_active {
+    padding: .7rem 2.6rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 button {
+    padding: .7rem 2.6rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -300,6 +390,8 @@
   }
   .site_wrapper header .logo a h2 {
     font-size: 1.8rem;
+    border-bottom: none;
+    margin: 0 0 1rem;
   }
   .site_wrapper .banner .main_Content_wrp .content_list_wrp .Content_list_01 ul.unorder01 .Li_01_cmn .f01 .Sup_cmn h4 {
     font-size: 1rem;
@@ -315,6 +407,51 @@
     font-size: 1.5rem;
     -webkit-transform: translate(0px, -2px);
             transform: translate(0px, -2px);
+  }
+  #verify_page_wrapper header .logo .nav_item_Wrp .nv01 a {
+    font-size: 1rem;
+    padding: .5rem .7rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 .btn_active {
+    padding: .7rem 2.1rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 button {
+    padding: .6rem 2.1rem;
+  }
+  #verify_page_wrapper header .logo .nav_item_Wrp {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  #verify_page_wrapper header .logo .nav_item_Wrp .nv01 a {
+    font-size: 13px;
+    padding: .5rem .7rem;
+  }
+  #verify_page_wrapper header .logo .nav_item_Wrp .nv02 {
+    width: 100%;
+    text-align: center;
+  }
+  #verify_page_wrapper header .logo .nav_item_Wrp .nv01 a .fa-home {
+    font-size: 16px;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .Subtmit_btn a {
+    padding: .7rem 3rem;
+    font-size: 1rem;
+  }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .Acccount_wrp p {
+    font-size: 14px;
+    padding: 1rem 0 0rem;
+    text-align: center;
+  }
+  #verify_page_wrapper .inner .login .F-heading h2 {
+    font-size: 1.1rem;
+    padding: .7rem 1rem;
+    text-align: center;
+  }
+  #verify_page_wrapper .login input[type=submit] {
+    padding: .7rem 3rem;
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=media.css.map */
