@@ -392,6 +392,9 @@
   #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 button {
     padding: .7rem 2.6rem;
   }
+  #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side {
+    padding: .5rem 0;
+  }
 }
 
 @media only screen and (max-width: 375px) {
