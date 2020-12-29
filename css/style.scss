@@ -540,7 +540,21 @@
                             transition: all .3s ease-in-out;
                             border-radius: 100px;
                            }
+                           .fa-home{
+                            // display: ;
+                            font-size: 1.3rem;
+                            text-transform: capitalize;
+                            transition: all .3s ease-in-out;
+                            &:hover{
+                                opacity: .77;
+                                transition: all .3s ease-in-out;
+                            }
+                        }
+                        .spn{
+                            display: none;
+                        }
                     }
+                   
                 }
                 .nv02{
                     width: 80%;//55%;
@@ -577,6 +591,7 @@
                     // width: 30%;
                 }
             }
+            
        }
       }
       .Main_verify_wrapper{
@@ -631,6 +646,7 @@
                     box-shadow: 0 0 3px 0 #00000017;
                     li{
                         width: 48%;
+                        list-style-type: none;
                         p{
                             padding: .8rem 0;
                             text-transform: capitalize;
@@ -640,6 +656,7 @@
                     .order-L01{
                         padding: 0 0 0 1rem;
                         position: relative;
+                        list-style-type: none;
                         &::before{    
                             content: '';
                             width: 9px;
@@ -933,14 +950,20 @@
         margin: 15px 0;
         border: none;
         outline: none;
-        padding: 10px;
+        padding: 1rem 3rem;
         background: linear-gradient(120deg, #f5b041 0%, #ea5959 100%);
         color: #fff;
         font-size: 18px;
         transition: 0.3s;
+        transform: all .3s ease-in-out;
         cursor: pointer;
-        background-size: 200%; 
+        // background-size: 200%; 
         border-radius: 5px;
+        &:hover{
+            transform: all .3s ease-in-out;
+            border-radius: 100px;
+            background: linear-gradient(120deg, #ff8a8a 0%, #f5b041 100%);
+        }
       }
       .login input[type=submit]:hover {
         background-size: 100%; 

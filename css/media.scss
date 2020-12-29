@@ -13,7 +13,27 @@
 .site_wrapper .banner .main_Content_wrp .slider2 button.owl-next {
     right: -40px !important;
 }
+//----verify-----page---------//
+#verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 button {
+    font-size: 1rem;
+    padding: .8rem 3.5rem;
 }
+
+#verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 .btn_active {
+    padding: .9rem 3.5rem;
+}
+#verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp{
+    justify-content: center!important;
+}
+.btn_cmn01{
+    width: 49%;
+}
+// -----end----here-----------///
+}
+
+
+
+
 @media only screen and (max-width: 1024px){
     .site_wrapper header .logo a h2{
         font-size: 2.5rem;
@@ -21,8 +41,32 @@
     .site_wrapper .banner .main_Content_wrp .heading_tab .List_cmn1{
         margin: 2rem auto 1rem;
     }
+    //----verify-----page---------//
+    .btn_cmn01{
+        width: initial!important;
+    }
+
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 button {
+        font-size: 15px;
+        padding: .8rem 3.2rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 .btn_active {
+        padding: .9rem 3.2rem;
+    }
+    #verify_page_wrapper header .logo .nav_item_Wrp{
+        justify-content: space-between;
+    }
+    #verify_page_wrapper header .logo .nav_item_Wrp .nv02 {
+        width: 82%;
+    }
+    #verify_page_wrapper header .logo .nav_item_Wrp .nv01 {
+        width: 10%;
+        text-align: left;
+    }
+// -----end----here-----------///
 }
     
+
 @media only screen and (max-width: 992px){
     .site_wrapper .banner .main_Content_wrp .content_list_wrp .Content_list_01 ul.unorder01 .Li_01_cmn {
         width: 47%;
@@ -30,6 +74,47 @@
      .site_wrapper .banner .main_Content_wrp .heading_tab .List_cmn1{
         margin: 2rem auto 1rem;
     }
+
+      //----verify-----page---------//
+
+      #verify_page_wrapper header .logo .nav_item_Wrp .nv01 {
+        width: initial;
+        text-align: left;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn{
+          width: 100%!important;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp{
+        flex-direction: column-reverse;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .vry_heading h2 {
+        font-size: 1.3rem;
+        margin: .1rem 0 1rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp .order-L02 .st_cmn b {
+        padding: 0px 5px;
+        margin: 0px 5px;
+        font-size: 1rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp .order-L02 .st_cmn span {
+       font-size: 1.2rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp .order-L01 h3{
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 .btn_active {
+        padding: .9rem 7.2rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .VRS_cmn .btn_grp .btn_cmn01 button {
+         padding: .8rem 7.2rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify_left_Side {
+         margin: 1rem 0 0;
+    }
+// -----end----here-----------///
 }
     
 @media only screen and (max-width: 767px){
@@ -86,6 +171,37 @@
         height: 167px;
         top: 14%;
     }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp .order-L01 h3 {
+        font-size: 15px;
+    }
+    //-------verify-----page---------//
+    .site_wrapper header .logo a h2 {
+        font-size: 2.3rem;
+    }
+    #verify_page_wrapper header .logo .nav_item_Wrp .nv01 a .fa-home {
+        font-size: 1.1rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .SbTotall_price ul .Sb_price_Cmn span {
+        font-size: 15px;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .SbTotall_price ul  .Sb_price03  span  {
+        font-size: 1.2rem!important;
+    }
+    
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp .order-L02 .st_cmn {
+        padding: 0.3rem .3rem;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp .order-L02 .st_cmn b {
+        font-size: 15px;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp li p {
+        padding: .7rem 0;
+        font-size: 14px;
+    }
+    #verify_page_wrapper .Main_verify_wrapper .Verify_content_wrp .Verify-right-Side .order-item_wrp .order-L02 p {
+        font-size: 14px;
+    }
+    //--------end------here-----------//
 }
 @media only screen and (max-width:576px){
     .site_wrapper .banner .main_Content_wrp .slider2 button.owl-next, .site_wrapper .banner .main_Content_wrp .slider2 button.owl-prev, .site_wrapper .banner .main_Content_wrp .slider2 button.owl-prev, .site_wrapper .banner .main_Content_wrp .slider2 button.owl-prev{
