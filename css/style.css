@@ -2363,7 +2363,7 @@ a.closebtn:hover {
   #sidebar {
     width: 0% !important;
   }
-  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 {
+  #Order_detail_wrp .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 {
     margin: 10rem 0 2rem;
   }
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp {
