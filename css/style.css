@@ -2903,10 +2903,15 @@ a.closebtn:hover {
     outline: none;
     color: #999;
   }
-  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 {
-    width: 90%;
-    -webkit-transform: translateY(12rem);
-            transform: translateY(12rem);
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_06 span.price1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.1rem;
+    -webkit-transform: translate(3px, 28.5px);
+            transform: translate(3px, 28.5px);
+    display: inline-block;
+    border: 2px;
   }
 }
 /*# sourceMappingURL=style.css.map */
