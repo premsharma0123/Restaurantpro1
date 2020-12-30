@@ -2898,5 +2898,11 @@ a.closebtn:hover {
     top: 29px;
     font-size: 1.1rem;
   }
+  select#parent_category {
+    background: #fff !important;
+    outline: none;
+    -webkit-columns: #222222;
+            columns: #222222;
+  }
 }
 /*# sourceMappingURL=style.css.map */
