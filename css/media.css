@@ -51,6 +51,11 @@
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory {
     width: 90%;
   }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 .Thanks .content02 .close02 {
+    padding: 1rem 1.2rem;
+    width: 165px;
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -170,6 +175,12 @@
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory {
     width: 90%;
     margin: 7rem auto 0;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 {
+    width: 50%;
+    margin: 0 auto;
+    -webkit-transform: translateY(19rem);
+            transform: translateY(19rem);
   }
 }
 
@@ -306,9 +317,15 @@
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_05 .img_wrp {
     top: 24px;
     right: -119px;
+    width: 20% !important;
+    -webkit-transform: translate(22px, 28px);
+            transform: translate(22px, 28px);
   }
   div#Table_wrp2 {
     margin: 4rem 0 2rem;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_05 input {
+    width: 73% !important;
   }
 }
 
@@ -447,6 +464,9 @@
         -ms-flex-pack: justify !important;
             justify-content: space-between !important;
   }
+  .main-bar .b1:hover, .main-bar .c1 {
+    width: 32px !important;
+  }
   .site_wrapper .banner .main_Content_wrp .order-btn .order-list2 .a01 {
     font-size: 1rem;
     margin: 0 0 .6rem;
@@ -504,6 +524,61 @@
     top: 24px;
     right: -80px;
     overflow: hidden;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .heading-top .head_a1_cmn {
+    padding: 1rem 0;
+    border-radius: 5px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .heading-top .head_a1_cmn h2 {
+    font-size: 1rem;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_cmn label {
+    font-size: 15px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_cmn select, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_cmn textarea {
+    padding: .7rem .5rem;
+    margin: .9rem 0;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_cmn label input {
+    padding: 0.8rem 0.5rem !important;
+    margin: .5rem 0;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 {
+    margin: 2rem 0 2rem !important;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp table tbody tr td .fa-check, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp table tbody tr td .fa-check {
+    font-size: 13px;
+    padding: 8px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp table tbody tr td .fa-times, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp table tbody tr td .fa-times {
+    font-size: 13px;
+    padding: 8px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_06 span.price1 {
+    position: absolute;
+    left: 1px;
+    top: 28px;
+    font-size: 1.2rem;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_06 input[type="number"] {
+    padding-left: 3rem !important;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 .Thanks h3 {
+    font-size: 15px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 {
+    width: 92%;
+    margin: 0 auto;
+    height: 225px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 .Thanks .content02 .close02 {
+    padding: .9rem 1.2rem;
+    width: 150px;
+    margin: 0 auto;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 .Thanks h3 {
+    font-size: 1rem;
+    margin: 0 0 2rem;
   }
 }
 
@@ -596,7 +671,21 @@
   }
   #Order_detail_wrp header a h2 {
     text-align: center;
-    margin: 0 7px 0 3rem;
+    margin: 0 7px 0 3rem !important;
+  }
+  .Admin_page_wrapper header a h2 {
+    margin: 0 7px 0 3rem !important;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_05 input {
+    width: 60% !important;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_05 .img_wrp {
+    width: 29% !important;
+    -webkit-transform: translate(22px, 28px);
+            transform: translate(22px, 28px);
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .heading-top .head_a1_cmn h2 {
+    font-size: 15px;
   }
 }
 /*# sourceMappingURL=media.css.map */

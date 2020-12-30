@@ -22,9 +22,9 @@ $(document).ready(function(){
         $(".Pop_up_wrapper2").fadeToggle("slow");
         $(".Pop_up_wrapper").css("display","none");
       });
-      // $(".main-bar").click(function(){
-      //   $("#sidebar").fadeToggle("slow");
-      // });
+      $(".main-bar").click(function(){
+        $("#main03").css("display","none");
+      });
     //----sign-up--//
     $(".Log").click(function(){
       $(".Pop_up_wrapper").fadeToggle("slow");
