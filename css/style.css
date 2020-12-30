@@ -1939,14 +1939,15 @@ a.closebtn:hover {
 #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym {
   width: 97%;
   margin: 0 auto;
+  position: relative;
 }
 
 #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym .Place_time {
-  width: 30% !important;
+  width: 100% !important;
 }
 
 #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym .Place_time input {
-  width: 200px;
+  width: 100%;
   padding: .8rem .5rem;
   border: 1px solid #9e9e9e82;
   border-radius: 5px;
@@ -1963,6 +1964,12 @@ a.closebtn:hover {
           box-shadow: 0 0 3px 0 #f5b041;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+#Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym .Okay {
+  position: absolute;
+  display: inline-block;
+  right: 0;
 }
 
 #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym .Okay input {
@@ -2121,6 +2128,7 @@ a.closebtn:hover {
   list-style-type: none;
   -webkit-box-shadow: 0px 3px 4px 1px #12121224;
           box-shadow: 0px 3px 4px 1px #12121224;
+  overflow: hidden;
 }
 
 #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 .item_content .itm_head {
@@ -2180,6 +2188,7 @@ a.closebtn:hover {
   text-transform: capitalize;
   color: #2c3e50bf;
   font-weight: normal;
+  word-break: break-all;
 }
 
 #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 .item_content .itm_main .d_cmn01 p {
@@ -2192,7 +2201,7 @@ a.closebtn:hover {
 }
 
 #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 .item_content .itm_main .d1, #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 .item_content .itm_main .d4 {
-  width: 15%;
+  width: 20%;
 }
 
 #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 .item_content .itm_main .d3 {
@@ -2261,6 +2270,29 @@ a.closebtn:hover {
     width: 165px;
     margin: 0 auto;
   }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp {
+    border-radius: 5px;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 {
+    width: 30%;
+    margin: 1rem auto;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym {
+    width: 97%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2300,6 +2332,13 @@ a.closebtn:hover {
   }
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp .table_childd_wrp table tbody tr td, .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Table_wrp2 .table_childd_wrp table tbody tr td {
     font-size: 15px;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 {
+    width: 48%;
+    margin: .5rem auto;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym {
+    width: 97%;
   }
 }
 
@@ -2386,6 +2425,15 @@ a.closebtn:hover {
     margin: 0 auto;
     -webkit-transform: translateY(19rem);
             transform: translateY(19rem);
+  }
+  #Client_detail_wrp .Admin_content_wrp .table_childd_wrp {
+    background: initial !important;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .customer-detail_wrp {
+    background: #fff !important;
+    margin: 6rem 0 0;
+    padding: .5rem;
+    border-radius: 5px;
   }
 }
 
@@ -2532,6 +2580,29 @@ a.closebtn:hover {
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_05 input {
     width: 73% !important;
   }
+  #Client_detail_wrp .Admin_content_wrp .table_childd_wrp {
+    background: initial !important;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .customer-detail_wrp {
+    background: #fff !important;
+    margin: 2rem 0 0;
+    padding: .5rem;
+    border-radius: 5px;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 {
+    width: 47%;
+    margin: .5rem auto;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym {
+    width: 97%;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 .item_content .itm_head p b {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #Client_detail_wrp .Admin_content_wrp #Table_wrp2 .table_childd_wrp {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -2608,6 +2679,17 @@ a.closebtn:hover {
   #verify_page_wrapper header .logo .nav_item_Wrp .nv02 {
     width: 79%;
     text-align: left;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .customer-detail_wrp {
+    margin: 2rem 0 0;
+    padding: .5rem;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Table_wrp2 .customer-detail_wrp .child_detail .item_cmn_03 {
+    width: 98%;
+    margin: .5rem auto 1rem;
+  }
+  #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym {
+    width: 97%;
   }
 }
 
