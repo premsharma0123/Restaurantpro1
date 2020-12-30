@@ -1025,7 +1025,7 @@
           @include flex;
           justify-content: space-between;
           .Admin-left_side{
-            width: 17%;
+            width: 17%; 
             z-index: 1;
             position: fixed;
             left: 0;
@@ -1059,6 +1059,9 @@
                           padding-left: 37px;
                           text-transform: capitalize;
                           font-weight: bold;
+                          @include flex;
+                          flex-wrap: nowrap;
+                          justify-content: flex-start;
                           i{
                               padding: 0 7px 0 0;
                           }
@@ -1788,7 +1791,66 @@ a.closebtn {
       }
   }
 }
-
+// ----dark--mode----//
+.dark_wrp{
+    transition: all .4s ease-in-out;
+    margin: 0px 0 0 2rem;
+    position: absolute;
+    top: -9px;
+    right: 5px;
+    .dark-child{
+        background: #000000;
+        width: 76px;
+        height: 32px;
+        border-radius: 15px;
+        top: 17px;
+        cursor: pointer;
+        transition: all .4s ease-in-out;
+        padding: 3px 0 0 1px;
+        position: relative;
+        .btn-toggle{
+            border-radius: 50%;
+            width: 26px;
+            height: 26px;
+            background: #ffffff;
+            display: inline-block;
+            transform: translateX(20px);
+            transition: all .4s ease-in-out;
+        }
+  }
+}
+.drk_clone{
+    transition: all .4s ease-in-out;
+    .dark-child{
+        background: #e3e3e3;
+    .btn-toggle{
+        transform: translateX(-23px)!important;
+        transition: all .4s ease-in-out;
+        display: inline-block;
+        background: #000!important;
+    }
+  }
+}
+.Dark_mode{
+    .Admin_page_wrapper::before{
+        filter: brightness(0.5)!important;
+    }
+    .site_wrapper{
+        background:#26242e !important ;//#7d7d7d;
+    }
+}
+.Dark_mode .table_childd_wrp {
+    background: initial!important;
+}
+.Dark_mode header {
+    background: #26242e  !important;//#7d7d7d
+    border-bottom: inherit;
+    box-shadow: 0 2px 3px 1px #00000030;
+}
+.Dark_mode .item_cmn_03 {
+    background: #ffffffdb!important;
+}
+//----dark----mod--end---here---//
 //----media---query-----///
 
 @import 'media';

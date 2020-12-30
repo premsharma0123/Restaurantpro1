@@ -477,6 +477,14 @@
   #Client_detail_wrp .Admin_content_wrp .Admin-right_side .Timer-wrp .timer_child .tym {
     width: 97%;
   }
+  .dark_wrp {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin: 0px 0 0 2rem;
+    position: absolute;
+    top: 41px;
+    right: 5px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
