@@ -611,6 +611,7 @@
     width: 92%;
     margin: 0 auto;
     height: 225px;
+    transform: translateY(11rem);
 }
 .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 .Thanks .content02 .close02 {
     padding: .9rem 1.2rem;
@@ -757,6 +758,12 @@
                 transform: translate(3px, 28.5px);
                 display: inline-block;
                 border: 2px;
+            }
+            .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 {
+                width: 90%;
+                margin: 0 auto;
+                height: 225px;
+                transform: translateY(11rem);
             }
         //-----end-------here------//
 

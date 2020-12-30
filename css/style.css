@@ -2775,6 +2775,8 @@ a.closebtn:hover {
     width: 92%;
     margin: 0 auto;
     height: 225px;
+    -webkit-transform: translateY(11rem);
+            transform: translateY(11rem);
   }
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 .Thanks .content02 .close02 {
     padding: .9rem 1.2rem;
@@ -2912,6 +2914,13 @@ a.closebtn:hover {
             transform: translate(3px, 28.5px);
     display: inline-block;
     border: 2px;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 {
+    width: 90%;
+    margin: 0 auto;
+    height: 225px;
+    -webkit-transform: translateY(11rem);
+            transform: translateY(11rem);
   }
 }
 /*# sourceMappingURL=style.css.map */
