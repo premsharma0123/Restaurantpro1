@@ -2910,8 +2910,8 @@ a.closebtn:hover {
     left: 0;
     top: 0;
     font-size: 1.1rem;
-    -webkit-transform: translate(3px, 28.5px);
-            transform: translate(3px, 28.5px);
+    -webkit-transform: translate(3px, 29.5px);
+            transform: translate(3px, 29.5px);
     display: inline-block;
     border: 2px;
   }
