@@ -2892,5 +2892,11 @@ a.closebtn:hover {
   .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .heading-top .head_a1_cmn h2 {
     font-size: 15px;
   }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .dashboard--wrp .Form_cotegory .form_wrp form .catgry_06 span.price1 {
+    position: absolute;
+    left: 1px;
+    top: 29px;
+    font-size: 1.1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
