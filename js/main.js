@@ -23,7 +23,7 @@ $(document).ready(function(){
         $(".Pop_up_wrapper").css("display","none");
       });
       $(".main-bar").click(function(){
-        $("#main03").css("display","none");
+        $(".main02").css("display","none");
       });
     //----sign-up--//
     $(".Log").click(function(){
