@@ -1040,12 +1040,13 @@
                         display: block;
                         list-style-type: none;
                         padding: .9rem 0;
-                        background: #ffffff1f;
+                        // background: #ffffff1f;
+                        background: #00000005;
                         margin: 10px 0;
                         transition: all 0.3s ease-in-out;
                         cursor: pointer;
                         &:hover{
-                            background: #00000005;
+                            background: #00000009;
                             transition: all 0.3s ease-in-out;   
                             color: #fff;
                         }
@@ -1064,7 +1065,8 @@
                         }
                     }
                     .ORd_avtive1,.ORd_avtive2{
-                        background: #fea39c;
+                        // background: #fea39c;
+                        background: linear-gradient(120deg, #eeeeee59 46%, #e6e6e626 100%);
                         transition: all .3s ease-in-out;
                         a{
                             color: #fff;
