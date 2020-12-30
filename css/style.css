@@ -2901,7 +2901,12 @@ a.closebtn:hover {
   select#parent_category {
     background: #fff !important;
     outline: none;
-    color: #222222;
+    color: #999;
+  }
+  .Admin_page_wrapper .Admin_content_wrp .Admin-right_side .main02 .cnt02 {
+    width: 90%;
+    -webkit-transform: translateY(12rem);
+            transform: translateY(12rem);
   }
 }
 /*# sourceMappingURL=style.css.map */
