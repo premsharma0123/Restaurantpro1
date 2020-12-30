@@ -698,7 +698,12 @@
     margin: 0 0 2rem;
 }
 //-----end-------here------//
+//-----Client------detail------//
+#Client_detail_wrp header .logo a h2{
+    margin: 0 0 0 0!important;
+}
 
+//-----end---here---//
 
 }
 
@@ -841,5 +846,7 @@
                 transform: translateY(11rem);
             }
         //-----end-------here------//
+
+        
 
 }

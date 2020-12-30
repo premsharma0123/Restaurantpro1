@@ -2869,6 +2869,9 @@ a.closebtn:hover {
     font-size: 1rem;
     margin: 0 0 2rem;
   }
+  #Client_detail_wrp header .logo a h2 {
+    margin: 0 0 0 0 !important;
+  }
 }
 
 @media only screen and (max-width: 375px) {
