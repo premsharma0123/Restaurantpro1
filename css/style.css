@@ -1269,6 +1269,14 @@ a, p {
   background: url(../image/bg-grad.gif) !important;
   -webkit-filter: opacity(0.6);
           filter: opacity(0.6);
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  display: block !important;
 }
 
 .Admin_page_wrapper header {
