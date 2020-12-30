@@ -696,8 +696,7 @@
   select#parent_category {
     background: #fff !important;
     outline: none;
-    -webkit-columns: #222222;
-            columns: #222222;
+    color: #222222;
   }
 }
 /*# sourceMappingURL=media.css.map */
