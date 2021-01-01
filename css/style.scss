@@ -1838,6 +1838,9 @@ a.closebtn {
     .site_wrapper{
         background:#26242e !important ;//#7d7d7d;
     }
+    .customer-detail_wrp{
+        background: #ffffff75 !important;
+    }
 }
 .Dark_mode .table_childd_wrp {
     background: initial!important;
@@ -1848,7 +1851,10 @@ a.closebtn {
     box-shadow: 0 2px 3px 1px #00000030;
 }
 .Dark_mode .item_cmn_03 {
-    background: #ffffffdb!important;
+    background: #ffffff70 !important;
+    .Place_time input{
+        background: #ffffff70 !important;
+    }
 }
 //----dark----mod--end---here---//
 //----media---query-----///

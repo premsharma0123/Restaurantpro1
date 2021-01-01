@@ -2295,6 +2295,10 @@ a.closebtn:hover {
   background: #26242e !important;
 }
 
+.Dark_mode .customer-detail_wrp {
+  background: #ffffff75 !important;
+}
+
 .Dark_mode .table_childd_wrp {
   background: initial !important;
 }
@@ -2307,7 +2311,11 @@ a.closebtn:hover {
 }
 
 .Dark_mode .item_cmn_03 {
-  background: #ffffffdb !important;
+  background: #ffffff70 !important;
+}
+
+.Dark_mode .item_cmn_03 .Place_time input {
+  background: #ffffff70 !important;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -2528,7 +2536,6 @@ a.closebtn:hover {
     background: initial !important;
   }
   #Client_detail_wrp .Admin_content_wrp .Admin-right_side .customer-detail_wrp {
-    background: #fff !important;
     margin: 6rem 0 0;
     padding: .5rem;
     border-radius: 5px;
@@ -2682,7 +2689,6 @@ a.closebtn:hover {
     background: initial !important;
   }
   #Client_detail_wrp .Admin_content_wrp .Admin-right_side .customer-detail_wrp {
-    background: #fff !important;
     margin: 2rem 0 0;
     padding: .5rem;
     border-radius: 5px;
