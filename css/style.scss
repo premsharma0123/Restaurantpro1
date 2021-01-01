@@ -1718,7 +1718,7 @@ a.closebtn {
             .customer-detail_wrp{
                 .child_detail{
                     @include flex;
-                    justify-content: flex-start!important;
+                    justify-content: center;
                     align-items: inherit!important;
                     .item_cmn_03{
                         // width: 24%;
