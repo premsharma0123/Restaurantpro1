@@ -718,21 +718,20 @@
     right: -29px;
     transform: rotate(90deg);
     .dark-child {
-        width: 62px;
-        height: 27px;
-        top: 17px;
-        padding: 3px 0 0 1px;
-        position: relative;
+         // width: 62px;height: 27px; top: 17px;
+         width: 58px; height: 5px;
+         top: 16px;padding: 3px 0 0 1px; right: -11px;
         .btn-toggle {
-            width: 21px;
-            height: 21px;
-            display: inline-block;
-            transform: translateX(18px);
+            width: 21px; height: 21px;
+          //  transform: translateX(18px);
+            transform: translate(19px,-11px);
         }
     }
 }
 .drk_clone .dark-child .btn-toggle {
-    transform: translateX(-19px) !important;
+    // transform: translateX(-19px) !important;
+    transform: translate(-22px,-11px) !important;
+    background: #9E9E9E !important;
 }
 
 

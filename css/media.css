@@ -665,22 +665,22 @@
             transform: rotate(90deg);
   }
   .dark_wrp .dark-child {
-    width: 62px;
-    height: 27px;
-    top: 17px;
+    width: 58px;
+    height: 5px;
+    top: 16px;
     padding: 3px 0 0 1px;
-    position: relative;
+    right: -11px;
   }
   .dark_wrp .dark-child .btn-toggle {
     width: 21px;
     height: 21px;
-    display: inline-block;
-    -webkit-transform: translateX(18px);
-            transform: translateX(18px);
+    -webkit-transform: translate(19px, -11px);
+            transform: translate(19px, -11px);
   }
   .drk_clone .dark-child .btn-toggle {
-    -webkit-transform: translateX(-19px) !important;
-            transform: translateX(-19px) !important;
+    -webkit-transform: translate(-22px, -11px) !important;
+            transform: translate(-22px, -11px) !important;
+    background: #9E9E9E !important;
   }
 }
 
